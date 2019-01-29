@@ -11,12 +11,14 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Properties;
 import org.json.JSONObject;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class Main {
 	public static void main(String[] args) {
 		try {
-//	        call_me();
-			execCMD();
+	        call_me();
+//			execCMD();
 		} catch (Exception e) {
 	        e.printStackTrace();
 		}
@@ -48,7 +50,9 @@ public class Main {
 	        
 	        //Read JSON response and print
 	        JSONObject myResponse = new JSONObject(response.toString());
-	        System.out.println(myResponse);
+	        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+	        String prettyJson = gson.toJson(myResponse);
+	        System.out.println(prettyJson);
 //	        System.out.println("origin- "+myResponse.getString("origin"));
 	         
 		    }
