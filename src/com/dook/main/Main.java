@@ -68,8 +68,9 @@ public class Main {
 	            while ((line = reader.readLine()) != null) {
 	            	sb.append(line + "\n");
 	            }
-	            int exitCode = process.waitFor();
-	            System.out.println("\nExited with error code : " + exitCode);
+	            process.waitFor();
+//	            int exitCode = process.waitFor();
+//	            System.out.println("\nExited with error code : " + exitCode);
 	            writeFile(sb);
 	        } catch (IOException e) {
 	            e.printStackTrace();
