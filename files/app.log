@@ -1,0 +1,88 @@
+2562-01-29 17:50:33 DEBUG Main:57 - {
+  "map": {
+    "results": {
+      "myArrayList": [
+        {
+          "map": {
+            "nat": "FR",
+            "gender": "male",
+            "phone": "03-33-65-57-87",
+            "dob": {
+              "map": {
+                "date": "1993-09-17T10:36:19Z",
+                "age": 25
+              }
+            },
+            "name": {
+              "map": {
+                "last": "dubois",
+                "title": "mr",
+                "first": "timothe"
+              }
+            },
+            "registered": {
+              "map": {
+                "date": "2006-08-02T00:07:20Z",
+                "age": 12
+              }
+            },
+            "location": {
+              "map": {
+                "city": "rouen",
+                "street": "7269 rue bossuet",
+                "timezone": {
+                  "map": {
+                    "offset": "+5:30",
+                    "description": "Bombay, Calcutta, Madras, New Delhi"
+                  }
+                },
+                "postcode": 54849,
+                "coordinates": {
+                  "map": {
+                    "latitude": "-0.5138",
+                    "longitude": "-37.7274"
+                  }
+                },
+                "state": "charente-maritime"
+              }
+            },
+            "id": {
+              "map": {
+                "name": "INSEE",
+                "value": "1NNaN86541790 04"
+              }
+            },
+            "login": {
+              "map": {
+                "sha1": "49e37768b1db98f154298ea81f33d1af8684abf5",
+                "password": "orioles",
+                "salt": "giIPYJAa",
+                "sha256": "8046045c176183f9ff0d33cacb9257ee8faaa3ae714d683a567e52d514d38441",
+                "uuid": "e3bb6c27-128a-4c96-8a2e-1e4a965a88bd",
+                "username": "blackwolf186",
+                "md5": "d79f12c9a634e5c7482fa9dac8441578"
+              }
+            },
+            "cell": "06-00-81-46-39",
+            "email": "timothe.dubois@example.com",
+            "picture": {
+              "map": {
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/65.jpg",
+                "large": "https://randomuser.me/api/portraits/men/65.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/65.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "info": {
+      "map": {
+        "seed": "8bb45984cd259640",
+        "page": 1,
+        "results": 1,
+        "version": "1.2"
+      }
+    }
+  }
+}

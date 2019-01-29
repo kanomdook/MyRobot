@@ -10,11 +10,13 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Properties;
+import org.apache.log4j.Logger;
 import org.json.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Main {
+	final static Logger logger = Logger.getLogger(Main.class);
 	public static void main(String[] args) {
 		try {
 	        call_me();
@@ -52,7 +54,7 @@ public class Main {
 	        JSONObject myResponse = new JSONObject(response.toString());
 	        Gson gson = new GsonBuilder().setPrettyPrinting().create();
 	        String prettyJson = gson.toJson(myResponse);
-	        System.out.println(prettyJson);
+	        logger.debug(prettyJson);
 //	        System.out.println("origin- "+myResponse.getString("origin"));
 	         
 		    }
