@@ -1,10 +1,10 @@
 
-Pinging google.com [172.217.31.110] with 32 bytes of data:
-Reply from 172.217.31.110: bytes=32 time=45ms TTL=49
-Reply from 172.217.31.110: bytes=32 time=54ms TTL=49
-Reply from 172.217.31.110: bytes=32 time=62ms TTL=49
+Pinging google.com [216.58.196.46] with 32 bytes of data:
+Reply from 216.58.196.46: bytes=32 time=44ms TTL=49
+Reply from 216.58.196.46: bytes=32 time=53ms TTL=49
+Reply from 216.58.196.46: bytes=32 time=46ms TTL=49
 
-Ping statistics for 172.217.31.110:
+Ping statistics for 216.58.196.46:
     Packets: Sent = 3, Received = 3, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 45ms, Maximum = 62ms, Average = 53ms
+    Minimum = 44ms, Maximum = 53ms, Average = 47ms

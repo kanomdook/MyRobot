@@ -31,13 +31,11 @@ public class Main {
 			String url = "https://randomuser.me/api/";
 	        URL obj = new URL(url);
 	        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-	        // optional default is GET
 	        con.setRequestMethod("GET");
-	        //add request header
 	        con.setRequestProperty("User-Agent", "Mozilla/5.0");
 	        int responseCode = con.getResponseCode();
-	        System.out.println("\nSending 'GET' request to URL : " + url);
-	        System.out.println("Response Code : " + responseCode);
+	        logger.debug("\nSending 'GET' request to URL : " + url);
+	        logger.debug("Response Code : " + responseCode);
 	        BufferedReader in = new BufferedReader(
 	                new InputStreamReader(con.getInputStream()));
 	        String inputLine;
@@ -77,32 +75,32 @@ public class Main {
 	            process.waitFor();
 //	            int exitCode = process.waitFor();
 //	            System.out.println("\nExited with error code : " + exitCode);
-	            writeFile(sb);
+	            writeFile(sb.toString());
 	        } catch (IOException e) {
-	            e.printStackTrace();
+	            logger.error(e);
 	        } catch (InterruptedException e) {
-	            e.printStackTrace();
+	        	logger.error(e);
 	        }
 		}
 		
-		public static void writeFile(StringBuffer content) {
+		public static void writeFile(String content) {
 			Properties prop = new Properties();
 			InputStream input = null;
 			try {
 				input = new FileInputStream("config.properties");
 				prop.load(input);
 				BufferedWriter bw = new BufferedWriter(new FileWriter(prop.getProperty("filename")));
-				bw.write(content.toString());
+				bw.write(content);
 				bw.close();
-				System.out.println("write file done!");
+				logger.debug("write file done!");
 			} catch (IOException e) {
-				e.printStackTrace();
+				logger.error(e);
 			} finally {
 				if (input != null) {
 					try {
 						input.close();
 					} catch (IOException e) {
-						e.printStackTrace();
+						logger.error(e);
 					}
 				}
 			}

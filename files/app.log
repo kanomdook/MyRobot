@@ -86,3 +86,183 @@
     }
   }
 }
+2562-01-30 09:13:57 DEBUG Main:57 - {
+  "map": {
+    "results": {
+      "myArrayList": [
+        {
+          "map": {
+            "nat": "ES",
+            "gender": "male",
+            "phone": "973-770-325",
+            "dob": {
+              "map": {
+                "date": "1951-08-11T01:02:17Z",
+                "age": 67
+              }
+            },
+            "name": {
+              "map": {
+                "last": "fuentes",
+                "title": "mr",
+                "first": "sebastian"
+              }
+            },
+            "registered": {
+              "map": {
+                "date": "2010-04-16T11:19:38Z",
+                "age": 8
+              }
+            },
+            "location": {
+              "map": {
+                "city": "alicante",
+                "street": "828 paseo de extremadura",
+                "timezone": {
+                  "map": {
+                    "offset": "-1:00",
+                    "description": "Azores, Cape Verde Islands"
+                  }
+                },
+                "postcode": 19757,
+                "coordinates": {
+                  "map": {
+                    "latitude": "-25.1695",
+                    "longitude": "-177.4101"
+                  }
+                },
+                "state": "andalucía"
+              }
+            },
+            "id": {
+              "map": {
+                "name": "DNI",
+                "value": "17912986-H"
+              }
+            },
+            "login": {
+              "map": {
+                "sha1": "779039fccc0787ddc98e1ee98e3564df2f05b7ce",
+                "password": "brooke",
+                "salt": "72Z5NlEK",
+                "sha256": "692f2b17b7c8b015850cbb08f5ebe2cdabd9d192e3a1a09012ccdb0f2e4eaa48",
+                "uuid": "e461e001-fdde-4a27-92e5-c27ec6bb0538",
+                "username": "tinygoose781",
+                "md5": "5a93461c8e23398387cbbcc87fb9fa97"
+              }
+            },
+            "cell": "680-384-863",
+            "email": "sebastian.fuentes@example.com",
+            "picture": {
+              "map": {
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/87.jpg",
+                "large": "https://randomuser.me/api/portraits/men/87.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/87.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "info": {
+      "map": {
+        "seed": "a99ffb964f5abd9b",
+        "page": 1,
+        "results": 1,
+        "version": "1.2"
+      }
+    }
+  }
+}
+2562-01-30 09:35:20 DEBUG Main:95 - write file done!
+2562-01-30 09:36:07 DEBUG Main:37 - 
+Sending 'GET' request to URL : https://randomuser.me/api/
+2562-01-30 09:36:07 DEBUG Main:38 - Response Code : 200
+2562-01-30 09:36:07 DEBUG Main:55 - {
+  "map": {
+    "results": {
+      "myArrayList": [
+        {
+          "map": {
+            "nat": "NL",
+            "gender": "female",
+            "phone": "(405)-921-7172",
+            "dob": {
+              "map": {
+                "date": "1945-06-08T15:28:17Z",
+                "age": 73
+              }
+            },
+            "name": {
+              "map": {
+                "last": "rienks",
+                "title": "mrs",
+                "first": "ibtisam"
+              }
+            },
+            "registered": {
+              "map": {
+                "date": "2002-06-04T05:21:52Z",
+                "age": 16
+              }
+            },
+            "location": {
+              "map": {
+                "city": "aalburg",
+                "street": "9967 abstederdijk",
+                "timezone": {
+                  "map": {
+                    "offset": "-8:00",
+                    "description": "Pacific Time (US \u0026 Canada)"
+                  }
+                },
+                "postcode": 66608,
+                "coordinates": {
+                  "map": {
+                    "latitude": "44.5076",
+                    "longitude": "165.3973"
+                  }
+                },
+                "state": "drenthe"
+              }
+            },
+            "id": {
+              "map": {
+                "name": "BSN",
+                "value": "00826230"
+              }
+            },
+            "login": {
+              "map": {
+                "sha1": "fcf99d99d51be3b0f0a727304749ce172cf1fbb7",
+                "password": "woody1",
+                "salt": "tHssqLnd",
+                "sha256": "3c1ea11d3e3de18257f8f40f1cc1845346d930ab65c807fd830d6c560baa4edd",
+                "uuid": "69a2f001-a584-4449-b0f9-d6009608f42b",
+                "username": "purpleswan475",
+                "md5": "f8f883ab40ff45f2e9bd2e624b2f5a28"
+              }
+            },
+            "cell": "(392)-366-0067",
+            "email": "ibtisam.rienks@example.com",
+            "picture": {
+              "map": {
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/55.jpg",
+                "large": "https://randomuser.me/api/portraits/women/55.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/55.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "info": {
+      "map": {
+        "seed": "54864c690dc00c5b",
+        "page": 1,
+        "results": 1,
+        "version": "1.2"
+      }
+    }
+  }
+}
