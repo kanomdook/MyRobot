@@ -1,123 +1,10 @@
-2562-01-30 14:04:47 DEBUG Main:38 - 
+2562-01-30 16:52:36 DEBUG Main:42 - 
 Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:04:47 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:04:47 ERROR Main:60 - org.json.JSONException: JSONObject["map"] not found.
-2562-01-30 14:05:56 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:05:56 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:05:57 ERROR Main:60 - org.json.JSONException: JSONObject["map"] not found.
-2562-01-30 14:06:36 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:06:36 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:06:37 ERROR Main:60 - org.json.JSONException: JSONObject["map"] not found.
-2562-01-30 14:08:07 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:08:07 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:08:07 ERROR Main:60 - org.json.JSONException: JSONObject["map"] not found.
-2562-01-30 14:08:36 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:08:36 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:08:36 ERROR Main:61 - org.json.JSONException: JSONObject["map"] not found.
-2562-01-30 14:09:06 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:09:06 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:09:07 ERROR Main:60 - org.json.JSONException: JSONObject["results"] is not a JSONObject.
-2562-01-30 14:10:01 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:10:01 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:10:02 ERROR Main:60 - org.json.JSONException: JSONObject["results"] not a string.
-2562-01-30 14:12:07 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:12:07 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:12:07 ERROR Main:61 - org.json.JSONException: JSONObject["results"] not a string.
-2562-01-30 14:12:41 DEBUG Main:38 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:12:41 DEBUG Main:39 - Response Code : 200
-2562-01-30 14:12:41 DEBUG Main:55 - [{"nat":"NZ","gender":"male","phone":"(160)-717-5256","dob":{"date":"1993-05-23T15:09:34Z","age":25},"name":{"last":"zhang","title":"mr","first":"mason"},"registered":{"date":"2016-12-01T18:28:19Z","age":2},"location":{"city":"whanganui","street":"5207 andersons bay road","timezone":{"offset":"+4:30","description":"Kabul"},"postcode":59408,"coordinates":{"latitude":"67.9171","longitude":"-119.4108"},"state":"otago"},"id":{"name":"","value":null},"login":{"sha1":"0a151bb4e63693e63ac3d303638e4e13c91d1814","password":"wizard1","salt":"pCki5BS3","sha256":"f5d71cb28dd6794071b15ade94a9f45af0937a3582977b72962b27cc38216432","uuid":"bfa80f98-3722-4e7b-af85-eeef2a0b1c84","username":"orangefrog910","md5":"53268f5db781bf634ef2d423a1ec1633"},"cell":"(901)-393-5636","email":"mason.zhang@example.com","picture":{"thumbnail":"https://randomuser.me/api/portraits/thumb/men/98.jpg","large":"https://randomuser.me/api/portraits/men/98.jpg","medium":"https://randomuser.me/api/portraits/med/men/98.jpg"}}]
-2562-01-30 14:17:24 DEBUG Main:39 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:17:24 DEBUG Main:40 - Response Code : 200
-2562-01-30 14:17:24 DEBUG Main:56 - [{"nat":"NO","gender":"male","phone":"62767047","dob":{"date":"1949-12-04T12:12:38Z","age":69},"name":{"last":"pilskog","title":"mr","first":"mateusz"},"registered":{"date":"2004-10-11T06:30:41Z","age":14},"location":{"city":"hell","street":"krags terrasse 4830","timezone":{"offset":"+4:00","description":"Abu Dhabi, Muscat, Baku, Tbilisi"},"postcode":"7493","coordinates":{"latitude":"56.5134","longitude":"-91.0321"},"state":"oppland"},"id":{"name":"FN","value":"04124945246"},"login":{"sha1":"982bb6eaca50ad2a719a1adf7a1980ef8f59fdb5","password":"stones","salt":"gqoMDIBm","sha256":"210f7279972a813493ebf80744ffdfc8e1edaac9c32ee5e9e527114b5cd8f8ce","uuid":"9a977492-1439-4787-bd48-712384bab17c","username":"crazyleopard501","md5":"51a3b094e5dc1575a913645542112ec8"},"cell":"42719389","email":"mateusz.pilskog@example.com","picture":{"thumbnail":"https://randomuser.me/api/portraits/thumb/men/23.jpg","large":"https://randomuser.me/api/portraits/men/23.jpg","medium":"https://randomuser.me/api/portraits/med/men/23.jpg"}}]
-2562-01-30 14:43:48 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:43:48 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:44:13 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:44:13 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:44:38 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:44:38 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:44:38 ERROR Main:63 - org.json.JSONException: JSONObject["dob"] not a string.
-2562-01-30 14:46:09 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:46:09 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:47:00 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:47:00 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:48:22 DEBUG Main:40 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:48:22 DEBUG Main:41 - Response Code : 200
-2562-01-30 14:50:34 DEBUG Main:41 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:50:34 DEBUG Main:42 - Response Code : 200
-2562-01-30 14:50:35 ERROR Main:68 - java.lang.IllegalArgumentException
-2562-01-30 14:53:05 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:53:05 DEBUG Main:43 - Response Code : 200
-2562-01-30 14:53:05 ERROR Main:69 - java.text.ParseException: Unparseable date: "1971-02-11T05:50:51Z"
-2562-01-30 14:53:44 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:53:44 DEBUG Main:43 - Response Code : 200
-2562-01-30 14:53:44 ERROR Main:69 - java.text.ParseException: Unparseable date: "1958-08-08T01:18:27Z"
-2562-01-30 14:55:32 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:55:32 DEBUG Main:43 - Response Code : 200
-2562-01-30 14:55:34 ERROR Main:69 - java.lang.IllegalArgumentException: Cannot format given Object as a Date
-2562-01-30 14:56:12 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 14:56:12 DEBUG Main:43 - Response Code : 200
-2562-01-30 14:56:12 ERROR Main:69 - java.lang.IllegalArgumentException: Cannot format given Object as a Date
-2562-01-30 15:01:11 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:01:11 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:01:11 ERROR Main:70 - java.text.ParseException: Unparseable date: "1996-05-27T17:01:17Z"
-2562-01-30 15:01:48 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:01:48 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:01:50 ERROR Main:70 - java.text.ParseException: Unparseable date: "07/06/2013"
-2562-01-30 15:02:12 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:02:12 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:02:56 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:02:56 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:02:56 ERROR Main:70 - java.text.ParseException: Unparseable date: "1967-08-27T01:22:39Z"
-2562-01-30 15:04:23 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:04:23 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:04:24 ERROR Main:70 - java.text.ParseException: Unparseable date: "1952-08-18T20:34:24Z"
-2562-01-30 15:04:50 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:04:50 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:04:50 ERROR Main:71 - java.text.ParseException: Unparseable date: "1954-07-14T03:03:28Z"
-2562-01-30 15:05:21 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:05:21 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:05:22 ERROR Main:71 - java.text.ParseException: Unparseable date: "1948-10-08T09:21:32Z"
-2562-01-30 15:06:14 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:06:14 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:06:14 ERROR Main:72 - java.text.ParseException: Unparseable date: "1967-06-13T13:07:56Z"
-2562-01-30 15:07:56 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:07:56 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:10:14 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:10:14 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:10:14 DEBUG Main:60 - female
-2562-01-30 15:10:14 DEBUG Main:61 - {"date":"1984-05-20T11:24:37Z","age":34}
-2562-01-30 15:10:14 DEBUG Main:62 - Sat May 20 18:24:37 ICT 1441
-2562-01-30 15:10:14 DEBUG Main:66 - {
+2562-01-30 16:52:36 DEBUG Main:43 - Response Code : 200
+2562-01-30 16:52:36 DEBUG Main:61 - female
+2562-01-30 16:52:36 DEBUG Main:62 - {"date":"1965-06-12T22:44:34Z","age":53}
+2562-01-30 16:52:36 DEBUG Main:63 - Sat Jun 13 05:44:34 ICT 1422
+2562-01-30 16:52:36 DEBUG Main:67 - {
   "map": {
     "results": {
       "myArrayList": [
@@ -125,164 +12,70 @@ Sending 'GET' request to URL : https://randomuser.me/api/
           "map": {
             "nat": "IE",
             "gender": "female",
-            "phone": "011-395-0227",
+            "phone": "041-998-7527",
             "dob": {
               "map": {
-                "date": "1984-05-20T11:24:37Z",
-                "age": 34
+                "date": "1965-06-12T22:44:34Z",
+                "age": 53
               }
             },
             "name": {
               "map": {
-                "last": "douglas",
-                "title": "miss",
-                "first": "tracy"
-              }
-            },
-            "registered": {
-              "map": {
-                "date": "2012-04-09T12:52:39Z",
-                "age": 6
-              }
-            },
-            "location": {
-              "map": {
-                "city": "naas",
-                "street": "9338 the grove",
-                "timezone": {
-                  "map": {
-                    "offset": "+1:00",
-                    "description": "Brussels, Copenhagen, Madrid, Paris"
-                  }
-                },
-                "postcode": 76080,
-                "coordinates": {
-                  "map": {
-                    "latitude": "23.5509",
-                    "longitude": "91.0625"
-                  }
-                },
-                "state": "kerry"
-              }
-            },
-            "id": {
-              "map": {
-                "name": "PPS",
-                "value": "2990478T"
-              }
-            },
-            "login": {
-              "map": {
-                "sha1": "8a99d1773b4b6e71f0f4c6aef6c7e2fe53f78d83",
-                "password": "1013",
-                "salt": "aFtBc6tn",
-                "sha256": "dbbd38b98311b8b9228c0632de677c2e5a33a94c0e12dcc594f262459242cf54",
-                "uuid": "f327eea6-b085-470e-830d-4bc9c25e8044",
-                "username": "ticklishelephant735",
-                "md5": "4d171e2921e820f766adbbe102ddbf28"
-              }
-            },
-            "cell": "081-347-6377",
-            "email": "tracy.douglas@example.com",
-            "picture": {
-              "map": {
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/75.jpg",
-                "large": "https://randomuser.me/api/portraits/women/75.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/75.jpg"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "info": {
-      "map": {
-        "seed": "677f66c32449ebdd",
-        "page": 1,
-        "results": 1,
-        "version": "1.2"
-      }
-    }
-  }
-}
-2562-01-30 15:15:04 DEBUG Main:42 - 
-Sending 'GET' request to URL : https://randomuser.me/api/
-2562-01-30 15:15:04 DEBUG Main:43 - Response Code : 200
-2562-01-30 15:15:04 DEBUG Main:60 - female
-2562-01-30 15:15:04 DEBUG Main:61 - {"date":"1989-04-07T10:01:15Z","age":29}
-2562-01-30 15:15:04 DEBUG Main:62 - Thu Apr 07 17:01:15 ICT 1446
-2562-01-30 15:15:04 DEBUG Main:66 - {
-  "map": {
-    "results": {
-      "myArrayList": [
-        {
-          "map": {
-            "nat": "NO",
-            "gender": "female",
-            "phone": "76501363",
-            "dob": {
-              "map": {
-                "date": "1989-04-07T10:01:15Z",
-                "age": 29
-              }
-            },
-            "name": {
-              "map": {
-                "last": "schjelderup",
+                "last": "kelly",
                 "title": "mrs",
-                "first": "leni"
+                "first": "caroline"
               }
             },
             "registered": {
               "map": {
-                "date": "2003-12-01T19:00:28Z",
+                "date": "2003-06-06T02:48:49Z",
                 "age": 15
               }
             },
             "location": {
               "map": {
-                "city": "moen",
-                "street": "doktor rustads vei 4056",
+                "city": "midleton",
+                "street": "6397 novara avenue",
                 "timezone": {
                   "map": {
-                    "offset": "-7:00",
-                    "description": "Mountain Time (US \u0026 Canada)"
+                    "offset": "-9:00",
+                    "description": "Alaska"
                   }
                 },
-                "postcode": "9440",
+                "postcode": 81946,
                 "coordinates": {
                   "map": {
-                    "latitude": "48.5744",
-                    "longitude": "123.5366"
+                    "latitude": "23.7239",
+                    "longitude": "91.9477"
                   }
                 },
-                "state": "buskerud"
+                "state": "longford"
               }
             },
             "id": {
               "map": {
-                "name": "FN",
-                "value": "07048942584"
+                "name": "PPS",
+                "value": "8934872T"
               }
             },
             "login": {
               "map": {
-                "sha1": "ee4a9f8f0b473cc2173cee2b46c5735348183af5",
-                "password": "protect",
-                "salt": "nARvEmHD",
-                "sha256": "cb7c58a119260193e60fc77512a4d02e758f63cf8e36cd8f82e7f8e44cee4485",
-                "uuid": "8b62e282-336b-4573-87b5-ffd1ab98014a",
-                "username": "goldenzebra947",
-                "md5": "6257d8e1920e7531f64997119d556cb0"
+                "sha1": "f7e71b006fc23d7a2d896a3fce7ed770a41d8bc1",
+                "password": "qwertyui",
+                "salt": "DaFbmuXt",
+                "sha256": "ea9c6d7a38ade0e1be6078ad6a8f69a072e7dfa02c9da9d8dd9351c138a2ddb7",
+                "uuid": "3772a8a9-c708-4035-85b0-106177ffdc84",
+                "username": "beautifulcat120",
+                "md5": "80a2cc31e00dc3d9a26812f848d4ef31"
               }
             },
-            "cell": "41807567",
-            "email": "leni.schjelderup@example.com",
+            "cell": "081-979-1556",
+            "email": "caroline.kelly@example.com",
             "picture": {
               "map": {
-                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/61.jpg",
-                "large": "https://randomuser.me/api/portraits/women/61.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/61.jpg"
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg",
+                "large": "https://randomuser.me/api/portraits/women/46.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/46.jpg"
               }
             }
           }
@@ -291,7 +84,7 @@ Sending 'GET' request to URL : https://randomuser.me/api/
     },
     "info": {
       "map": {
-        "seed": "bac25e497985d29f",
+        "seed": "2395165c52817e4a",
         "page": 1,
         "results": 1,
         "version": "1.2"

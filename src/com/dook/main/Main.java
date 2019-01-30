@@ -49,21 +49,25 @@ public class Main {
 			}
 			in.close();
 
-			JSONObject res = new JSONObject(response.toString());
-			JSONArray results = res.getJSONArray("results");
-			for (int i = 0; i < results.length(); i++) {
-				JSONObject result = results.getJSONObject(i);
-				String gender = result.getString("gender");
-				JSONObject dob = result.getJSONObject("dob");
-				SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
-				Date birthDay = dateFormat.parse(dob.getString("date").replaceAll("Z$", "+0000"));
-				logger.debug(gender);
-				logger.debug(dob);
-				logger.debug(birthDay);
+			if (responseCode == 200) {
+				JSONObject res = new JSONObject(response.toString());
+				JSONArray results = res.getJSONArray("results");
+				for (int i = 0; i < results.length(); i++) {
+					JSONObject result = results.getJSONObject(i);
+					String gender = result.getString("gender");
+					JSONObject dob = result.getJSONObject("dob");
+					SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
+					Date birthDay = dateFormat.parse(dob.getString("date").replaceAll("Z$", "+0000"));
+					logger.debug(gender);
+					logger.debug(dob);
+					logger.debug(birthDay);
+				}
+				Gson gson = new GsonBuilder().setPrettyPrinting().create();
+				String prettyJson = gson.toJson(res);
+				logger.debug(prettyJson);
+			} else {
+				logger.warn("warning responseCode: " + responseCode);
 			}
-			Gson gson = new GsonBuilder().setPrettyPrinting().create();
-			String prettyJson = gson.toJson(res);
-			logger.debug(prettyJson);
 		} catch (Exception e) {
 			logger.error(e);
 		}
@@ -83,8 +87,8 @@ public class Main {
 			while ((line = reader.readLine()) != null) {
 				sb.append(line + "\n");
 			}
-	            int exitCode = process.waitFor();
-	            System.out.println("\nExited with error code : " + exitCode);
+			int exitCode = process.waitFor();
+			System.out.println("\nExited with error code : " + exitCode);
 			writeFile(sb.toString());
 		} catch (IOException e) {
 			logger.error(e);
