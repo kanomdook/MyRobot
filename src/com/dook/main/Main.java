@@ -23,8 +23,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			requestApi();
-//			execCMD();
+//			requestApi();
+			execCMD();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -88,7 +88,7 @@ public class Main {
 				sb.append(line + "\n");
 			}
 			int exitCode = process.waitFor();
-			System.out.println("\nExited with error code : " + exitCode);
+			logger.debug("Exited with error code : " + exitCode);
 			writeFile(sb.toString());
 		} catch (IOException e) {
 			logger.error(e);

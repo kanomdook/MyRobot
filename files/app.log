@@ -92,3 +92,5 @@ Sending 'GET' request to URL : https://randomuser.me/api/
     }
   }
 }
+2562-01-30 16:58:42 DEBUG Main:91 - Exited with error code : 0
+2562-01-30 16:58:42 DEBUG Main:109 - write file done!
