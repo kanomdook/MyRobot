@@ -266,3 +266,101 @@ Sending 'GET' request to URL : https://randomuser.me/api/
     }
   }
 }
+2562-01-30 09:46:14 DEBUG Main:37 - 
+Sending 'GET' request to URL : https://randomuser.me/api/opop
+2562-01-30 09:46:14 DEBUG Main:38 - Response Code : 404
+2562-01-30 09:47:56 DEBUG Main:38 - 
+Sending 'GET' request to URL : https://randomuser.me/api/opop
+2562-01-30 09:47:56 DEBUG Main:39 - Response Code : 404
+2562-01-30 09:47:56 ERROR Main:59 - java.io.FileNotFoundException: https://randomuser.me/api/opop
+2562-01-30 10:16:23 DEBUG Main:38 - 
+Sending 'GET' request to URL : https://randomuser.me/api/
+2562-01-30 10:16:23 DEBUG Main:39 - Response Code : 200
+2562-01-30 10:16:23 DEBUG Main:56 - {
+  "map": {
+    "results": {
+      "myArrayList": [
+        {
+          "map": {
+            "nat": "DK",
+            "gender": "male",
+            "phone": "97747566",
+            "dob": {
+              "map": {
+                "date": "1994-02-26T20:59:43Z",
+                "age": 24
+              }
+            },
+            "name": {
+              "map": {
+                "last": "møller",
+                "title": "mr",
+                "first": "storm"
+              }
+            },
+            "registered": {
+              "map": {
+                "date": "2011-05-18T18:53:04Z",
+                "age": 7
+              }
+            },
+            "location": {
+              "map": {
+                "city": "vipperød",
+                "street": "6101 fjordparken",
+                "timezone": {
+                  "map": {
+                    "offset": "-8:00",
+                    "description": "Pacific Time (US \u0026 Canada)"
+                  }
+                },
+                "postcode": 25173,
+                "coordinates": {
+                  "map": {
+                    "latitude": "-36.0419",
+                    "longitude": "-51.2795"
+                  }
+                },
+                "state": "sjælland"
+              }
+            },
+            "id": {
+              "map": {
+                "name": "CPR",
+                "value": "566345-6131"
+              }
+            },
+            "login": {
+              "map": {
+                "sha1": "6a49f0c916ce2aa17e7614c6f39d7716d3dbd59a",
+                "password": "garcia",
+                "salt": "TacVzUFm",
+                "sha256": "775ab30a42e33d045c4f76b5fc0053f3f0cd195441b5652376d1e996ad8bbec6",
+                "uuid": "d9293fc2-b00c-46b8-b6b4-9e9bfcc6c99b",
+                "username": "sadelephant648",
+                "md5": "93ea46aebfee797ff4a1c8f2e8ccce42"
+              }
+            },
+            "cell": "50843151",
+            "email": "storm.møller@example.com",
+            "picture": {
+              "map": {
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/69.jpg",
+                "large": "https://randomuser.me/api/portraits/men/69.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/69.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "info": {
+      "map": {
+        "seed": "83d909befc10a310",
+        "page": 1,
+        "results": 1,
+        "version": "1.2"
+      }
+    }
+  }
+}

@@ -27,7 +27,8 @@ public class Main {
 
 	}
 	
-	public static void call_me() throws Exception {
+	public static void call_me() {
+		try {
 			String url = "https://randomuser.me/api/";
 	        URL obj = new URL(url);
 	        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -38,10 +39,10 @@ public class Main {
 	        logger.debug("Response Code : " + responseCode);
 	        BufferedReader in = new BufferedReader(
 	                new InputStreamReader(con.getInputStream()));
-	        String inputLine;
+	        String line;
 	        StringBuffer response = new StringBuffer();
-	        while ((inputLine = in.readLine()) != null) {
-	        	response.append(inputLine);
+	        while ((line = in.readLine()) != null) {
+	        	response.append(line);
 	        }
 	        in.close();
 	        
@@ -54,7 +55,9 @@ public class Main {
 	        String prettyJson = gson.toJson(myResponse);
 	        logger.debug(prettyJson);
 //	        System.out.println("origin- "+myResponse.getString("origin"));
-	         
+		} catch (Exception e) {
+			logger.error(e);
+		}  
 		    }
 	
 		public static void execCMD() {
