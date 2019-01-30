@@ -364,3 +364,4 @@ Sending 'GET' request to URL : https://randomuser.me/api/
     }
   }
 }
+2562-01-30 11:16:45 ERROR Main:59 - java.net.UnknownHostException: randomuser.me

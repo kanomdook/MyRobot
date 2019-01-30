@@ -19,7 +19,7 @@ public class Main {
 	final static Logger logger = Logger.getLogger(Main.class);
 	public static void main(String[] args) {
 		try {
-	        call_me();
+			requestApi();
 //			execCMD();
 		} catch (Exception e) {
 	        e.printStackTrace();
@@ -27,7 +27,7 @@ public class Main {
 
 	}
 	
-	public static void call_me() {
+	public static void requestApi() {
 		try {
 			String url = "https://randomuser.me/api/";
 	        URL obj = new URL(url);
