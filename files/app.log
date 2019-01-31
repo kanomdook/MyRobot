@@ -94,3 +94,17 @@ Sending 'GET' request to URL : https://randomuser.me/api/
 }
 2562-01-30 16:58:42 DEBUG Main:91 - Exited with error code : 0
 2562-01-30 16:58:42 DEBUG Main:109 - write file done!
+2562-01-30 17:12:41 ERROR Main:72 - java.net.SocketException: Software caused connection abort: recv failed
+2562-01-31 09:16:26 ERROR Main:154 - java.io.FileNotFoundException: https://randomuser.me/api/
+2562-01-31 09:17:49 ERROR Main:154 - java.io.FileNotFoundException: https://email-trigger.herokuapp.com/api/
+2562-01-31 09:19:06 ERROR Main:154 - java.io.IOException: Server returned HTTP response code: 503 for URL: https://email-trigger.herokuapp.com/api/tigger
+2562-01-31 09:25:40 ERROR Main:145 - java.io.IOException: Server returned HTTP response code: 503 for URL: https://email-trigger.herokuapp.com/api/tigger
+2562-01-31 09:47:57 ERROR Main:152 - java.io.IOException: Server returned HTTP response code: 503 for URL: https://email-trigger.herokuapp.com/api/tigger
+2562-01-31 09:57:09 ERROR Main:154 - java.io.FileNotFoundException: https://email-trigger.herokuapp.com/api/testpost
+2562-01-31 09:59:04 DEBUG Main:151 - {"success":true,"data":{"username":"dook","password":"dook1234"}}
+2562-01-31 10:03:58 DEBUG Main:151 - {"success":true,"data":{"username":"dook","password":"dook1234"}}
+2562-01-31 10:10:07 ERROR Main:161 - org.json.JSONException: JSONObject["success"] not a string.
+2562-01-31 10:10:42 DEBUG Main:154 - {"data":{"password":"dook1234","username":"dook"},"success":true}
+2562-01-31 10:10:42 ERROR Main:162 - org.json.JSONException: JSONObject["success"] not a string.
+2562-01-31 10:11:22 ERROR Main:162 - org.json.JSONException: JSONObject["success"] not a string.
+2562-01-31 10:12:13 DEBUG Main:154 - {"data":{"password":"dook1234","username":"dook"},"success":true}

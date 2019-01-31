@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -17,6 +18,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
 
 public class Main {
 	final static Logger logger = Logger.getLogger(Main.class);
@@ -24,7 +26,8 @@ public class Main {
 	public static void main(String[] args) {
 		try {
 //			requestApi();
-			execCMD();
+			postApi();
+//			execCMD();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -117,6 +120,44 @@ public class Main {
 					logger.error(e);
 				}
 			}
+		}
+	}
+
+	public static void postApi() {
+		try {
+			String url = " https://email-trigger.herokuapp.com/testpost";
+			URL obj = new URL(url);
+			HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+			con.setDoOutput(true);
+			con.setDoInput(true);
+			con.setRequestProperty("Content-Type", "application/json");
+			con.setRequestProperty("Accept", "application/json");
+			con.setRequestMethod("POST");
+
+			JsonObject credencial = new JsonObject();
+			credencial.addProperty("username", "dook");
+			credencial.addProperty("password", "dook1234");
+			OutputStreamWriter osw = new OutputStreamWriter(con.getOutputStream());
+			osw.write(credencial.toString());
+			osw.close();
+			int responseCode = con.getResponseCode();
+			BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+			String line;
+			StringBuffer response = new StringBuffer();
+			while ((line = in.readLine()) != null) {
+				response.append(line);
+			}
+			in.close();
+			if (responseCode == 200) {
+				JSONObject res = new JSONObject(response.toString());
+				if(res.getBoolean("success")) {
+					logger.debug(res);
+				}
+			} else {
+				logger.error("error code: " + responseCode);
+			}
+		} catch (Exception e) {
+			logger.error(e);
 		}
 	}
 }
