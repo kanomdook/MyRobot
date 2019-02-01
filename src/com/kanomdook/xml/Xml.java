@@ -1,4 +1,4 @@
-package com.dook.xml;
+package com.kanomdook.xml;
 
 import java.io.File;
 import javax.xml.parsers.DocumentBuilder;

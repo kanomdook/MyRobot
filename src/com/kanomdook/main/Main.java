@@ -1,4 +1,4 @@
-package com.dook.main;
+package com.kanomdook.main;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

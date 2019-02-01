@@ -1,4 +1,4 @@
-package com.dook.excel;
+package com.kanomdook.excel;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -66,5 +66,6 @@ public class Excel {
 		workbook.write(fileOut);
 		fileOut.close();
 		workbook.close();
+		System.out.println("write Excel success!");
 	}
 }
