@@ -6,5 +6,10 @@
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/java-json.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/poi-ooxml-schemas-4.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
