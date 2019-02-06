@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/commons-compress-1.18.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/com.keepautomation.barcode.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
