@@ -112,3 +112,97 @@ Sending 'GET' request to URL : https://randomuser.me/api/
 2562-01-31 17:44:56 DEBUG Main:154 - {"data":{"password":"dook1234","username":"dook"},"success":true}
 2562-01-31 17:45:01 DEBUG Main:154 - {"data":{"password":"dook1234","username":"dook"},"success":true}
 2562-01-31 17:45:08 DEBUG Main:154 - {"data":{"password":"dook1234","username":"dook"},"success":true}
+2562-02-06 09:46:08 DEBUG Main:45 - 
+Sending 'GET' request to URL : https://randomuser.me/api/
+2562-02-06 09:46:08 DEBUG Main:46 - Response Code : 200
+2562-02-06 09:46:08 DEBUG Main:64 - male
+2562-02-06 09:46:08 DEBUG Main:65 - {"date":"1973-08-06T16:16:37Z","age":45}
+2562-02-06 09:46:08 DEBUG Main:66 - Sun Aug 06 23:16:37 ICT 1430
+2562-02-06 09:46:08 DEBUG Main:70 - {
+  "map": {
+    "results": {
+      "myArrayList": [
+        {
+          "map": {
+            "nat": "GB",
+            "gender": "male",
+            "phone": "027 8705 4514",
+            "dob": {
+              "map": {
+                "date": "1973-08-06T16:16:37Z",
+                "age": 45
+              }
+            },
+            "name": {
+              "map": {
+                "last": "lopez",
+                "title": "mr",
+                "first": "levi"
+              }
+            },
+            "registered": {
+              "map": {
+                "date": "2014-11-06T14:55:21Z",
+                "age": 4
+              }
+            },
+            "location": {
+              "map": {
+                "city": "stoke-on-trent",
+                "street": "4545 green lane",
+                "timezone": {
+                  "map": {
+                    "offset": "0:00",
+                    "description": "Western Europe Time, London, Lisbon, Casablanca"
+                  }
+                },
+                "postcode": "W2K 1WD",
+                "coordinates": {
+                  "map": {
+                    "latitude": "11.8627",
+                    "longitude": "-141.3301"
+                  }
+                },
+                "state": "lancashire"
+              }
+            },
+            "id": {
+              "map": {
+                "name": "NINO",
+                "value": "RS 61 24 42 C"
+              }
+            },
+            "login": {
+              "map": {
+                "sha1": "0079380d5e0b7902828077af99d34471c1afac56",
+                "password": "onetime",
+                "salt": "aCyWYfKS",
+                "sha256": "ab20ec20d5ce31d54d995476179b0a3450cb78adbcb5696abb385a4e9e5babc6",
+                "uuid": "98773d97-076c-4d19-ba16-e8c204375cd4",
+                "username": "beautifulgoose909",
+                "md5": "2c86d7f0b20a335ba00389d4737d48d5"
+              }
+            },
+            "cell": "0777-731-106",
+            "email": "levi.lopez@example.com",
+            "picture": {
+              "map": {
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/14.jpg",
+                "large": "https://randomuser.me/api/portraits/men/14.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/14.jpg"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "info": {
+      "map": {
+        "seed": "58567a07ccd67a1c",
+        "page": 1,
+        "results": 1,
+        "version": "1.2"
+      }
+    }
+  }
+}

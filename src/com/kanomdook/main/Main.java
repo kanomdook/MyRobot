@@ -25,8 +25,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-//			requestApi();
-			postApi();
+			requestApi();
+//			postApi();
 //			execCMD();
 		} catch (Exception e) {
 			e.printStackTrace();
