@@ -55,10 +55,21 @@ public class BarCodeGenerator {
 
 	public static void getBase64() {
 		try {
-			File file = new File("C:\\\\Users\\\\ASUS\\\\eclipse-workspace\\\\MyRobot\\\\files\\\\ean13.gif");
+			File file = new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\ean13.gif");
 			byte[] fileContent = FileUtils.readFileToByteArray(file);
-			String encodedString = Base64.getEncoder().encodeToString(fileContent);
-			System.out.println(encodedString);
+			String base64Encoded = Base64.getEncoder().encodeToString(fileContent);
+			System.out.println(base64Encoded);
+			base64ToImageFile(base64Encoded);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void base64ToImageFile(String base64) {
+		byte[] decoded = Base64.getDecoder().decode(base64);
+		try {
+			FileUtils.writeByteArrayToFile(new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\byteImg.png"),
+					decoded);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
