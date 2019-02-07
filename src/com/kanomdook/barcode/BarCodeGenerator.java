@@ -9,12 +9,13 @@ import com.keepautomation.barcode.BarCode;
 import com.keepautomation.barcode.IBarCode;
 
 public class BarCodeGenerator {
+	private static final String PATH = System.getProperty("user.dir");
 
 	public static void main(String[] args) {
 		try {
-//			qrCode();
+			qrCode();
 //			EAN13();
-			getBase64();
+//			getBase64();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -28,7 +29,7 @@ public class BarCodeGenerator {
 		barcode.setQrCodeEcl(IBarCode.QR_ECL_L);
 		barcode.setQrCodeVersion(1);
 		try {
-			barcode.draw("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\qrcode.gif");
+			barcode.draw(PATH + "\\files\\qrcode.gif");
 			System.out.println("QrCode Generate Success!");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -46,7 +47,7 @@ public class BarCodeGenerator {
 		barcode.setTopMargin(0);
 		barcode.setBottomMargin(0);
 		try {
-			barcode.draw("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\ean13.gif");
+			barcode.draw(PATH + "\\files\\ean13.gif");
 			System.out.println("EAN13 Generate Success!");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -55,7 +56,7 @@ public class BarCodeGenerator {
 
 	public static void getBase64() {
 		try {
-			File file = new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\ean13.gif");
+			File file = new File(PATH + "\\files\\ean13.gif");
 			byte[] fileContent = FileUtils.readFileToByteArray(file);
 			String base64Encoded = Base64.getEncoder().encodeToString(fileContent);
 			System.out.println(base64Encoded);
@@ -68,8 +69,7 @@ public class BarCodeGenerator {
 	public static void base64ToImageFile(String base64) {
 		byte[] decoded = Base64.getDecoder().decode(base64);
 		try {
-			FileUtils.writeByteArrayToFile(new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\byteImg.png"),
-					decoded);
+			FileUtils.writeByteArrayToFile(new File(PATH + "\\files\\byteImg.png"), decoded);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

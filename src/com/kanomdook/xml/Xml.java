@@ -11,6 +11,7 @@ import org.w3c.dom.NodeList;
 //import com.google.gson.JsonObject;
 
 public class Xml {
+	private static final String PATH = System.getProperty("user.dir");
 
 	public static void main(String[] args) {
 		try {
@@ -24,7 +25,7 @@ public class Xml {
 	public static Boolean isFoundAlarm2658() {
 		Boolean isFound = false;
 		try {
-			File inputFile = new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\src\\com\\dook\\xml\\alarmXml.xml");
+			File inputFile = new File(PATH + "\\files\\alarmXml.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(inputFile);
@@ -48,7 +49,7 @@ public class Xml {
 
 //	public static void isFoundAlarm2658-2() {
 //		try {
-//			File inputFile = new File("C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\src\\com\\dook\\xml\\alarmXml2.xml");
+//			File inputFile = new File(PATH + "\\files\\alarmXml2.xml");
 //			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 //			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 //			Document doc = dBuilder.parse(inputFile);

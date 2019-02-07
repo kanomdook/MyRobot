@@ -15,6 +15,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel {
+	private static final String PATH = System.getProperty("user.dir");
 	private static String[] columns = { "First Name", "Last Name", "Email", "Date Of Birth" };
 	private static List<Contact> contacts = new ArrayList<Contact>();
 
@@ -61,11 +62,10 @@ public class Excel {
 		}
 
 		// Write the output to a file
-		FileOutputStream fileOut = new FileOutputStream(
-				"C:\\Users\\ASUS\\eclipse-workspace\\MyRobot\\files\\contacts.xlsx");
+		FileOutputStream fileOut = new FileOutputStream(PATH + "\\files\\contacts.xlsx");
 		workbook.write(fileOut);
 		fileOut.close();
 		workbook.close();
-		System.out.println("write Excel success!");
+		System.out.println("Write Excel Success!");
 	}
 }
