@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/poi-ooxml-schemas-4.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/com.keepautomation.barcode.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/eclipse-workspace/MyRobot/libs/mongo-java-driver-3.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
