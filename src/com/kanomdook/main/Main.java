@@ -150,7 +150,7 @@ public class Main {
 			in.close();
 			if (responseCode == 200) {
 				JSONObject res = new JSONObject(response.toString());
-				if(res.getBoolean("success")) {
+				if (res.getBoolean("success")) {
 					logger.debug(res);
 				}
 			} else {

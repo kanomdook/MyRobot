@@ -206,3 +206,7 @@ Sending 'GET' request to URL : https://randomuser.me/api/
     }
   }
 }
+2019-08-01 14:25:06 ERROR Main:75 - java.net.UnknownHostException: randomuser.me
+2019-08-01 14:28:02 ERROR Main:75 - java.net.UnknownHostException: randomuser.me
+2019-08-01 14:30:01 ERROR Main:75 - java.net.UnknownHostException: www.google.com
+2019-08-01 14:30:42 ERROR Main:75 - java.net.UnknownHostException: randomuser.me
